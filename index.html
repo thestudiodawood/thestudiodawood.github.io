@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title></title>
+    <meta name="description" content="An open-source Gallifreyan translator">
+    <meta charset="UTF-8">
+    
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <img class="top-left" id="doctor" src="css/doctorwho.jpg" alt="" />
+</div>
+        <input type="text" value=">"  id="resultTextBox" class="top-right">
+<br id="info1">  <p class="info1">seven  october</p>
+<br>
+ <div id="text-clock" align="center">
+  
+<p id="info">pre episode 1</p>
+
+  <!-- line 1 -->
+  <p id="line-1">
+    <span id="hrname" class="hrname"><span id=" hrd" class="hra">d</span><span id=" hra" class="hra">A</span></span><span id="is" class="active"><span id=" hrw" class="hrw">w</span>oo</span><span id=" hra" class="hra">A</span>S<span id="tgif">d</span>
+  </p>
+  <!-- line 2 -->
+  <p id="line-2">
+<span id=" hra" class="hra">A</span>C<span id="q" class="desc">q</span><span id=" hra" class="hru">U</span><span id=" hra" class="hra">A</span><span id=" hrr" class="hrr">R</span><span id=" hra" class="hrt">T</span><span id=" hra" class="hra">A</span><span id=" hra" class="hrr">R</span><span id=" hra" class="hrb">B</span><span id=" hra" class="hrs">S</span>
+  </p>
+  <!-- line 3 -->
+  <p id="line-2">
+    <span id="hr0" class="hr0">ZERO</span><span id="five" class="hr5"><span id="hr5" class="hrf">F</span><span id="hr5" class="hrf">I</span><span id="hr5" class="hrv">V</span><span id="hr5" class="hre">E</span></span>X
+  </p>
+  <!-- line 4 -->
+  <p id="line-2">
+    <span id="half" class="hrdivide2"><span id="hr5" class="hrh">H</span><span id=" hra" class="hra">A</span><span id="hrl" class="hrl">L</span><span id="hrf" class="hrf">f</span></span><span id="hrb" class="hrb">B</span><span id="ten" class="desc">TEN</span>F<span id="to" class="desc">TO</span>
+  </p>
+ 
+  <!-- line 5 -->
+  <p id="line-2">
+    <span id="dawood" class="hrdawood">d<span id=" hra" class="hra">a</span><span id=" hrt" class="hro">O</span>o</span><span id=" hrt" class="hrd">d</span><span id=" hrt" class="hro">O</span>U<span id="four" class="hr4"><span id="nine" class="hr9"><span id="hrn" class="hrn">N</span><span id="hri" class="hri">I</span><span id="hrn" class="hrn">N</span><span id="hre" class="hre">E</span></span>
+  </p>
+  <!-- line 6 -->
+  <p id="line-2">
+    <span id="one" class="hr1"><span id="one" class="hro">O</span><span id="hrn" class="hrn">N</span><span id="hre" class="hre">E</span></span><span id="six" class="hr6"><span id="hrn" class="hrs">S</span><span id="hrn" class="hri">I</span><span id="hrn" class="hrx">X</span></span><span id="three" class="hr3">THREE</span>
+  </p>
+  <!-- line 7 -->
+  <p id="line-7">
+    <span id="four" class="hr4">FOUR</span><span id="five-hr" class="hr5">FIVE</span><span id="two" class="hr2">TWO</span>
+  </p>
+  <!-- line 8 -->
+  <p id="line-8">
+    <span id="eight" class="hr8">EIGHT</span><span id="eleven" class="hreleven">ELEVEN</span>
+  </p>
+  <!-- line 9 -->
+  <p id="line-9">
+    <span id="seven" class="hr7">SEVEN</span><span id="twelve" class="hrtwelve">TWELVE</span>
+  </p>
+  <!-- line 10 -->
+  <p id="line-10">
+    <span id="ten-hr" class="hr10">  <span id=" hrt" class="hrt">T</span><span id=" hrt" class="hre">E</span><span id=" hrt" class="hrn">N</span></span>SE<span id="oclock" class="desc"><span id="hro" class="hro">O</span><span id="hrc" class="hrc">C</span><span id="hrl" class="hrl">L</span><span id="hro" class="hro">O</span><span id="hrc" class="hrc">C</span><span id="hrk" class="hrk">K</span></span>
+  </p>
+  <!-- line 11 -->
+  <p id="line-11">
+    <span id="nine" class="hr9">NINE</span>
+  </p>
+  <iframe style="visibility: hidden;" id="youtube" width="640" height="360" src="https://www.youtube.com/embed/gm2PXshWC_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+  <p id="info1">dawood abbaspour hasanloue</p>  
+
+   <script  src="js/index.js"> </script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+  $( document ).ready(function() {
+	  $('#resultTextBox').on("keydown keyup", function() {
+		   $d=$('#resultTextBox').val();
+		$s="abcdefghijklmnopqrstuvwxyz"; 
+         		 
+        if($d==">info")
+		$('#resultTextBox').val("doctor find stone writen in ancient gallifreyan find out what is it type >pre1 this is pre episode 1");
+		 if($d==">pre1")
+		 {
+		   $('.info1' ).addClass('active');
+	   
+	   }
+	   
+	   for(i=0;i<12;i++)
+	    $('.hr'+i).removeClass('active');
+     if(a[0]!="0")
+	 {
+	   $('.hr'+a[0]).removeClass('active');
+    $('.hr'+a[0]).addClass('active');
+	 }
+	 	   for(i=1;i<a.length;i++)
+{
+	   $('.hr'+a[i]).removeClass('active');
+    $('.hr'+a[i]).addClass('active');
+ }    
+});  
+});
+</script>
+
+  
+
+     
+
+  </body>
+</html>

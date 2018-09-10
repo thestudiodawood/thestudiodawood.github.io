@@ -1,0 +1,136 @@
+ @font-face {
+  font-family: ws simple gallifreyan;
+  /* CSS has no idea, nor does it care, what this font "really" is */
+  src: url('ohg-mh.ttf') format("truetype");
+  /* so we tell it this font is applicable to weight:100, or ultra-thin */
+  font-weight: 100;
+  /* and we also tell it that this font is applicable in "normal" style */
+  font-style: normal;
+}
+body
+{
+	font-family: ws simple gallifreyan;
+}
+ span:hover  {
+ 
+}
+ 
+input 
+{
+    background: transparent;   
+ 
+    border: none;
+}
+p, span{
+	color: black;
+	transition: color 0.4s ease-out;
+	-ms-transition: color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
+	letter-spacing: 12.1px;
+	font-size: 27px;   
+}
+
+#midnight{
+	color: #000;
+	letter-spacing: 23px;
+}
+
+#it, #is, span.active{
+	color: #fff !important;
+	transition: color 0.4s ease-out;
+	-ms-transition: color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
+}
+
+#text-clock{
+	 padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+}
+
+#line-1, #line-1 span{
+	letter-spacing: 13.9px;
+}
+#line-2, #line-2 span{
+	letter-spacing: 11.3px;
+}
+#line-7, #line-7 span{
+	letter-spacing: 11.8px;
+}
+#line-8, #line-8 span{
+	letter-spacing: 12.3px;
+}
+#line-9, #line-9 span{
+	letter-spacing: 11.6px;
+}
+#line-10, #line-10 span{
+	letter-spacing: 11.6px;
+}
+#line-23, #line-24 span{
+	letter-spacing: 11.6px;
+}
+.hidden{
+	display: none;
+}
+body
+{
+	background-image: url("back.jpg");
+}
+#info:hover
+{
+	font-family: Arial ;
+}
+#info1:hover
+{
+	font-family: Arial ;
+}
+input[type="text"]
+{
+    background: transparent;
+    border: none; 	   font-family: Arial ;
+ }
+canvas {
+    display: inline;
+    border: 1px solid black;
+	  font-family: ohg-mh;
+	      font-size: 25px;	 font-family: ws simple gallifreyan;
+     margin-top:70px;
+
+}
+ div:hover
+ {
+	 font-family: Arial ;
+ }
+#textfield-container {
+    
+}
+ 
+ 
+input {
+	 font-family: ws simple gallifreyan;
+    margin: 10px;
+    padding: 10px;  
+ 
+    font-size: 55px;
+      
+      background: transparent;
+    border: none;      margin-bottom:2px;
+
+}
+button {
+    width: auto;  
+ 
+    background: #617798;  
+    border: 0;
+    font-size: 15px;
+    color: #FFFFFF;   
+}
+ 
