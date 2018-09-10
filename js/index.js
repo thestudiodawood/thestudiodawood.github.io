@@ -188,15 +188,14 @@ setInterval(function() {
 }, 1000);
 $( document ).ready(function() {
 	  $('#resultTextBox').on("keydown keyup", function() {
-		alert("d");
+	 
 		$s="abcdefghijklmnopqrstuvwxyz"; 
           		 
        
 	   a=n($d) ;
 	  
 	   
-	   for(i=0;i<12;i++)
-	    $('.hr'+i).removeClass('active');
+	    
      if(a[0]!="0")
 	 {
 	   $('.hr'+a[0]).removeClass('active');
