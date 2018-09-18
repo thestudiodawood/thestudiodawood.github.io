@@ -1,108 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" >
 
-    <title></title>
-    <meta name="description" content="An open-source Gallifreyan translator">
-    <meta charset="UTF-8">
-    
-    <link href="css/style.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-  <img class="top-left" id="doctor" src="css/doctorwho.jpg" alt="" />
-</div>
-        <input type="text" value=">"  id="resultTextBox" class="top-right">
-<br id="info1">  <p class="info1">seven  october</p>
-<br>
- <div id="text-clock" align="center">
+<head>
+  <meta charset="UTF-8">
+  <title>bbc doctor who's interactive gif story</title>
   
-<p id="info">pre episode 1</p>
+  
+      <link rel="stylesheet" href="css/style.css">
 
-  <!-- line 1 -->
-  <p id="line-1">
-    <span id="hrname" class="hrname"><span id=" hrd" class="hra">d</span><span id=" hra" class="hra">A</span></span><span id="is" class="active"><span id=" hrw" class="hrw">w</span>oo</span><span id=" hra" class="hra">A</span>S<span id="tgif">d</span>
-  </p>
-  <!-- line 2 -->
-  <p id="line-2">
-<span id=" hra" class="hra">A</span>C<span id="q" class="desc">q</span><span id=" hra" class="hru">U</span><span id=" hra" class="hra">A</span><span id=" hrr" class="hrr">R</span><span id=" hra" class="hrt">T</span><span id=" hra" class="hra">A</span><span id=" hra" class="hrr">R</span><span id=" hra" class="hrb">B</span><span id=" hra" class="hrs">S</span>
-  </p>
-  <!-- line 3 -->
-  <p id="line-2">
-    <span id="hr0" class="hr0">ZERO</span><span id="five" class="hr5"><span id="hr5" class="hrf">F</span><span id="hr5" class="hrf">I</span><span id="hr5" class="hrv">V</span><span id="hr5" class="hre">E</span></span>X
-  </p>
-  <!-- line 4 -->
-  <p id="line-2">
-    <span id="half" class="hrdivide2"><span id="hr5" class="hrh">H</span><span id=" hra" class="hra">A</span><span id="hrl" class="hrl">L</span><span id="hrf" class="hrf">f</span></span><span id="hrb" class="hrb">B</span><span id="ten" class="desc">TEN</span>F<span id="to" class="desc">TO</span>
-  </p>
+  
+</head>
+
+<body>
+
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script>
+  </script>
+
+  
+
+    <script  src="js/index.js"></script>
+
  
-  <!-- line 5 -->
-  <p id="line-2">
-    <span id="dawood" class="hrdawood">d<span id=" hra" class="hra">a</span><span id=" hrt" class="hro">O</span>o</span><span id=" hrt" class="hrd">d</span><span id=" hrt" class="hro">O</span>U<span id="four" class="hr4"><span id="nine" class="hr9"><span id="hrn" class="hrn">N</span><span id="hri" class="hri">I</span><span id="hrn" class="hrn">N</span><span id="hre" class="hre">E</span></span>
-  </p>
-  <!-- line 6 -->
-  <p id="line-2">
-    <span id="one" class="hr1"><span id="one" class="hro">O</span><span id="hrn" class="hrn">N</span><span id="hre" class="hre">E</span></span><span id="six" class="hr6"><span id="hrn" class="hrs">S</span><span id="hrn" class="hri">I</span><span id="hrn" class="hrx">X</span></span><span id="three" class="hr3">THREE</span>
-  </p>
-  <!-- line 7 -->
-  <p id="line-7">
-    <span id="four" class="hr4">FOUR</span><span id="five-hr" class="hr5">FIVE</span><span id="two" class="hr2">TWO</span>
-  </p>
-  <!-- line 8 -->
-  <p id="line-8">
-    <span id="eight" class="hr8">EIGHT</span><span id="eleven" class="hreleven">ELEVEN</span>
-  </p>
-  <!-- line 9 -->
-  <p id="line-9">
-    <span id="seven" class="hr7">SEVEN</span><span id="twelve" class="hrtwelve">TWELVE</span>
-  </p>
-  <!-- line 10 -->
-  <p id="line-10">
-    <span id="ten-hr" class="hr10">  <span id=" hrt" class="hrt">T</span><span id=" hrt" class="hre">E</span><span id=" hrt" class="hrn">N</span></span>SE<span id="oclock" class="desc"><span id="hro" class="hro">O</span><span id="hrc" class="hrc">C</span><span id="hrl" class="hrl">L</span><span id="hro" class="hro">O</span><span id="hrc" class="hrc">C</span><span id="hrk" class="hrk">K</span></span>
-  </p>
-  <!-- line 11 -->
-  <p id="line-11">
-    <span id="nine" class="hr9">NINE</span>
-  </p>
-  <iframe style="visibility: hidden;" id="youtube" width="640" height="360" src="https://www.youtube.com/embed/gm2PXshWC_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-  <p id="info1">dawood abbaspour hasanloue</p>  
-
-   <script  src="js/index.js"> </script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+ <video style="visibility: visible" autoplay="true" id="myVideo" autoplay loop>
+  <source src="videos/13a.mp4" type="video/mp4">
+</video>
 <script>
-  $( document ).ready(function() {
-	  $('#resultTextBox').on("keydown keyup", function() {
-		   $d=$('#resultTextBox').val();
-		$s="abcdefghijklmnopqrstuvwxyz"; 
-         	 
-        if($d==">info")
-		$('#resultTextBox').val("doctor find stone writen in ancient gallifreyan find out what is it type >pre1 this is pre episode 1");
-		 if($d==">pre1")
-		 {
-		   $('.info1' ).addClass('active');
-	   
-	   }
-	   
-	    
-     if(a[0]!="0")
-	 {
-	   $('.hr'+a[0]).removeClass('active');
-    $('.hr'+a[0]).addClass('active');
-	 }
-	 	   for(i=1;i<a.length;i++)
-{
-	   $('.hr'+a[i]).removeClass('active');
-    $('.hr'+a[i]).addClass('active');
- }    
-});  
-});
-</script>
+    document.getElementById('myVideo').play();
 
+function play()
+{
+    document.getElementById('myVideo').play();
+	
+}
+function pause()
+{
+    document.getElementById('myVideo').pause();
+	
+}
+function next()
+{
+   id++;
+   last_id="day-"+id;
+   var elm_width = window.getComputedStyle(document.querySelector('label[for="'+last_id+'"]')).width;
+	document.documentElement.style.setProperty('--margin-left', elm_width);
+}
+function next()
+{
+   id--;
+	
+}
+</script>
+  <h1>bbc doctor who's interactive gif story </h1>
+  <p>copyright dawood abbaspour hasanloue 2018</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <div id="calendar">
+  <div id="current_day">
+    <br>
+     <br> <a href="https://www.bbc.co.uk/programmes/b006q2x0"><img height="100" width="200" id="l" src="pics/logo4.png"/></a>
+
+    <p>Sunday 7 october 2018</p>
+    <p><strong>The Woman Who Fell to Earth</strong></p>
+  </div>
+   
+   <button id="myBtn" onclick="play()">></button>
+   <button id="myBtn" onclick="pause()">||</button>
+    
+  <div id="week-container">
+    <div id="week">           
+      <input type="radio" id="day-0" name="day"/>
+      <label for="day-0">
+        <p><span class="dotw">2005</span><span class="date"> 9 </span></p>
+        <div>
+          <div class="images"><img id="9a" src="pics/9a.png"/><img id="9b" src="pics/9b.png"/><img id="9c" src="pics/9c.png"/></div>
+          
+            <li><span class="dotw"><strong>Christopher Eccleston </strong></span></li>
+            
+          
+        </div>
+      </label>
+      <input type="radio" id="day-1" name="day"/>
+      <label for="day-1">
+        <p><span class="dotw">2006-2010</span><span class="date">10</span></p>
+        <div>
+          <div class="curtain">
+	          <div class="images"><img id="10a" src="pics/10a.png"/><img id="10b" src="pics/10b.png"/><img id="10c" src="pics/10c.png"/></div>
+
+	 
+</div> <!-- curtain -->
+          
+            <li><span class="dotw"><strong>David Tennant </strong> </span></li>
+             
+         
+        </div>
+      </label>
+      <input type="radio" id="day-2" name="day"/>
+      <label for="day-2">
+        <p><span class="dotw">2010-2013</span><span class="date">11</span></p>
+        <div>
+			          <div class="images"><img id="11a" src="pics/11a.png"/><img id="11b" src="pics/11b.png"/><img id="11c" src="pics/11c.png"/></div>
+
+           
+            <li><strong>Matt Smith</strong></li>
+            
+           
+        </div>
+      </label>
+      <input type="radio" id="day-3" name="day"/>
+      <label for="day-3">
+        <p><span class="dotw">2013-2017</span><span class="date">12</span></p>
+        <div>
+					          <div class="images"><img id="12a" src="pics/12a.png"/><img id="12b" src="pics/12b.png"/><img id="12c" src="pics/12c.png"/></div>
+  
+            <li><strong>Peter Capaldi </strong></li>
+           
+          </ol>
+        </div>
+      </label>
+	  
+      <input type="radio" id="day-4" name="day"/ >
+      <label for="day-4">
+        <p><span class="dotw">2018-</span><span class="date">13</span></p>
+        <div>
+          <div class="images"><img   id="13a" src="pics/13a.png"/>  </div>
+           
+            <li><strong>jodie whittaker</strong></li>
+             
+        </div>
+      </label>
+      
+     
+    </div>
+  </div>
+</div>
+  
   
 
-     
+ 
+       <script  src="js/index.js"></script>
 
-  </body>
+</div>
+  
+ 
+
+</div>
+
+</body>
+
 </html>
