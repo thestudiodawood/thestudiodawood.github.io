@@ -5,8 +5,7 @@ count=10;
 $current1="#9a";
 $current2="#10a";
 $current3="#11a";
-$current4="#12a";var vid = document.getElementById("myVideo"); 
- 			 vid.play();  
+$current4="#12a"; 
 			 win=0;
 			 
 			 
