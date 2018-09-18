@@ -15,9 +15,9 @@ while(arr.length < 3){
     if(arr.indexOf(randomnumber) > -1) continue;
     arr[arr.length] = randomnumber;
 }
- alert(arr[0]+":"+arr[1]+":"+arr[2]);
 function isgood(n)
-{ count--;
+{ count--; alert(arr[0]+":"+arr[1]+":"+arr[2]);
+
 alert(n);
  
     if(count>0)
