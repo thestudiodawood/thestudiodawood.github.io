@@ -18,7 +18,7 @@ while(arr.length < 3){
  alert(arr[0]+":"+arr[1]+":"+arr[2]);
 function isgood(n)
 { count--;
-
+alert(n);
  
     if(count>0)
     {		
