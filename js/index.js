@@ -24,7 +24,7 @@ alert(n);
     {		
 	if((n=="9a")&&(arr[0]==1))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="9a")&&(arr[1]==1))
 		{
