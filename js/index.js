@@ -18,7 +18,7 @@ while(arr.length < 3){
 }
  
 function isgood(n)
-{ count--;alert(n);
+{ count--;
 
  
     if(count>0)
@@ -191,7 +191,7 @@ function playvideo($id)
 	if($(this).attr("src").includes($id+"a"))
 {
 var vid = document.getElementById("myVideo"); 
-			vid.src="/videos/"+$id+"a.mp4";
+			vid.src="videos/"+$id+"a.mp4";
 			 vid.play();
 }
  if($(this).attr("src").includes($id+"b"))
@@ -215,7 +215,7 @@ for(i=9;i<=13;i++)
 	$current='#'+i+'a';  
  	
 $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
-			vid.src="/videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
+			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play(); 			
 $( ".count" ).replaceWith( "<h2>New heading</h2>" );
 
@@ -225,7 +225,7 @@ $( ".count" ).replaceWith( "<h2>New heading</h2>" );
  
 });
 $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo"); 
-			vid.src="/videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
+			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play();  $('#count').html('whatever');
 
 			  isgood(getidfrompic($(this).attr("src")) );
@@ -243,8 +243,7 @@ $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo");
  
 });
 $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo"); 
-			//vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4";
-vid.src="https://photos.app.goo.gl/8puPrVmqoHWzoLxSA";		
+			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play();  
 			  isgood(getidfrompic($(this).attr("src")));
 
