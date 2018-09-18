@@ -1,13 +1,13 @@
 id=0;
 pre=id;
 score=0;
-count=10;
 $current1="#9a";
 $current2="#10a";
 $current3="#11a";
 $current4="#12a"; 
 			 win=0;
-			 
+if(count==0)
+	count=10;
 			 
 var arr = []
 while(arr.length < 3){
