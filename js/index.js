@@ -74,97 +74,97 @@ alert(n);
 	}
 	if((n=="10b")&&(arr[0]==5))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="10b")&&(arr[1]==5))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="10b")&&(arr[2]==5))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	if((n=="10c")&&(arr[0]==6))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="10c")&&(arr[1]==6))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="10c")&&(arr[2]==6))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	if((n=="11a")&&(arr[0]==7))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="11a")&&(arr[1]==7))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="11a")&&(arr[2]==7))
 		{
-		arr[2]=-2;score+=10;	
+		arr[2]=-2;score+=10;	alert("correct");
 
 	}
 	if((n=="11b")&&(arr[0]==8))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="11b")&&(arr[1]==8))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="11b")&&(arr[2]==8))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	if((n=="11c")&&(arr[0]==9))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="11c")&&(arr[1]==9))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="11c")&&(arr[2]==9))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	if((n=="12a")&&(arr[0]==10))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="12a")&&(arr[1]==10))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="12a")&&(arr[2]==10))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}if((n=="12b")&&(arr[0]==11))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="13a")&&(arr[1]==13))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="13a")&&(arr[2]==13))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	if((n=="13a")&&(arr[2]==13))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	}
