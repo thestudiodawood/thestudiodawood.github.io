@@ -153,8 +153,9 @@ for(i=9;i<=13;i++)
  	
 $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
 			      s=getidfrompic($(this).attr("src"));
-			       s=s.replace(".png","");
-			vid.src=s.replace("videos//","videos/"); 
+			       s=s.replace(".PNG","");
+			        s=s.replace(".io/",".io/videos/");
+			vid.src=s; 
 			 vid.play(); 			
 alert(s);
 
