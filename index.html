@@ -152,7 +152,9 @@ for(i=9;i<=13;i++)
 	$current='#'+i+'a';  
  	
 $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
-			vid.src="videos"+getidfrompic($(this).attr("src"))+".mp4"; 
+			      s=getidfrompic($(this).attr("src"));
+			       s=s.replace(".png","");
+			vid.src="videos"+s+".mp4"; 
 			 vid.play(); 			
 alert("j"+vid.src.replace("videos//","videos/"));
 
