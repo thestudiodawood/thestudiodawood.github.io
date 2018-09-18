@@ -28,48 +28,48 @@ alert(n);
 	}
 	if((n=="9a")&&(arr[1]==1))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="9a")&&(arr[2]==1))
 		{
-		arr[2]=-2;score+=10;
+		arr[2]=-2;score+=10;alert("correct");
 	}
 	if((n=="9b")&&(arr[0]==2))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="9b")&&(arr[1]==2))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="9b")&&(arr[2]==2))
 		{
-		arr[2]=-2;score+=10;
+		arr[2]=-2;score+=10;alert("correct");
 	}
 	if((n=="9c")&&(arr[0]==3))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="9c")&&(arr[1]==3))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="9c")&&(arr[2]==3))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	if((n=="10a")&&(arr[0]==4))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="10a")&&(arr[1]==4))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="10a")&&(arr[2]==4))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;	alert("correct");	
 
 	}
 	if((n=="10b")&&(arr[0]==5))
