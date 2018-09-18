@@ -219,7 +219,7 @@ for(i=9;i<=13;i++)
 $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play(); 			
-$( ".count" ).replaceWith( "<h2>New heading</h2>" );
+$( ".count" ).replaceWith( count+":"+count );
 
 
              isgood(getidfrompic($(this).attr("src")) );
