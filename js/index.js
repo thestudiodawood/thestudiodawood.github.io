@@ -9,7 +9,7 @@ $current4="#12a";var vid = document.getElementById("myVideo");
  			 vid.play();  
 			 win=0;
 			 
-	alert("hi");		 
+			 
 var arr = []
 while(arr.length < 3){
     var randomnumber = Math.floor(Math.random()*13) + 1;
@@ -18,7 +18,7 @@ while(arr.length < 3){
 }
  
 function isgood(n)
-{ count--;
+{ count--;alert(n);
 
  
     if(count>0)
@@ -215,7 +215,7 @@ for(i=9;i<=13;i++)
 	$current='#'+i+'a';  
  	
 $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
-			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
+			vid.src="/"+getidfrompic($(this).attr("src"))+".ogg"; 
 			 vid.play(); 			
 $( ".count" ).replaceWith( "<h2>New heading</h2>" );
 
@@ -243,7 +243,8 @@ $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo");
  
 });
 $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo"); 
-			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
+			//vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4";
+vid.src="https://photos.app.goo.gl/8puPrVmqoHWzoLxSA";		
 			 vid.play();  
 			  isgood(getidfrompic($(this).attr("src")));
 
