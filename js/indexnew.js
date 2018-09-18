@@ -17,6 +17,7 @@ while(arr.length < 3){
     arr[arr.length] = randomnumber;
 }
  
+ alert(arr[0]+":"+arr[1]+":"+arr[2]);
 function isgood(n)
 { count--;
 
@@ -25,7 +26,7 @@ function isgood(n)
     {		
 	if((n=="9a")&&(arr[0]==1))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="9a")&&(arr[1]==1))
 		{
@@ -33,7 +34,7 @@ function isgood(n)
 	}
 	if((n=="9a")&&(arr[2]==1))
 		{
-		arr[2]=-2;score+=10;
+		arr[2]=-2;score+=10;alert("correct");
 	}
 	if((n=="9b")&&(arr[0]==2))
 	{
@@ -41,137 +42,140 @@ function isgood(n)
 	}
 	if((n=="9b")&&(arr[1]==2))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="9b")&&(arr[2]==2))
 		{
-		arr[2]=-2;score+=10;
+		arr[2]=-2;score+=10;alert("correct");
 	}
 	if((n=="9c")&&(arr[0]==3))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="9c")&&(arr[1]==3))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="9c")&&(arr[2]==3))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="10a")&&(arr[0]==4))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="10a")&&(arr[1]==4))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="10a")&&(arr[2]==4))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="10b")&&(arr[0]==5))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="10b")&&(arr[1]==5))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="10b")&&(arr[2]==5))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="10c")&&(arr[0]==6))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="10c")&&(arr[1]==6))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="10c")&&(arr[2]==6))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="11a")&&(arr[0]==7))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="11a")&&(arr[1]==7))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="11a")&&(arr[2]==7))
 		{
-		arr[2]=-2;score+=10;	
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="11b")&&(arr[0]==8))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="11b")&&(arr[1]==8))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="11b")&&(arr[2]==8))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="11c")&&(arr[0]==9))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="11c")&&(arr[1]==9))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="11c")&&(arr[2]==9))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="12a")&&(arr[0]==10))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="12a")&&(arr[1]==10))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="12a")&&(arr[2]==10))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}if((n=="12b")&&(arr[0]==11))
 	{
-		arr[0]=-2;score+=10;
+		arr[0]=-2;score+=10;alert("correct");
 	}
 	if((n=="13a")&&(arr[1]==13))
 		{
-		arr[1]=-2;score+=10;
+		arr[1]=-2;score+=10;alert("correct");
 	}
 	if((n=="13a")&&(arr[2]==13))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	if((n=="13a")&&(arr[2]==13))
 		{
-		arr[2]=-2;score+=10;		
+		arr[2]=-2;score+=10;		alert("correct");
 
 	}
 	}
 	else
 	{
-	
+		if(score==30)
+		alert("win");
+	   else
+		   alert("defeat");
 	}
 }
 function next()
@@ -226,11 +230,11 @@ $( ".count" ).replaceWith( "<h2>New heading</h2>" );
 });
 $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
-			 vid.play();  $('#count').html('whatever');
+			 vid.play();  $('#count').html(count);
 
 			  isgood(getidfrompic($(this).attr("src")) );
-
-			  if($(this).attr("id").includes("9"))		  
+alert("#"+getidfrompic($(this).attr("src")));
+    	if($(this).attr("id").includes("9"))		  
 		{  
     	      swap( "#9a","#9b") ;
 		}
@@ -246,8 +250,8 @@ $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo");
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play();  
 			  isgood(getidfrompic($(this).attr("src")));
-
-			  if($(this).attr("id").includes("9"))		  
+alert("#"+getidfrompic($(this).attr("src")));
+    	if($(this).attr("id").includes("9"))		  
 		{ 	
           
     	      swap( "#9a","#9c") ;
