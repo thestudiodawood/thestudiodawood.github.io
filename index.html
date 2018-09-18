@@ -143,7 +143,26 @@ function next()
 
  
        <script  src="/js/index.js"></script>
+<script>
+	i="9";  
 
+ 
+for(i=9;i<=13;i++)
+{
+	$current='#'+i+'a';  
+ 	
+$("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
+			vid.src="/"+getidfrompic($(this).attr("src"))+".ogg"; 
+			 vid.play(); 			
+
+
+
+             isgood(getidfrompic($(this).attr("src")) );
+
+ 
+});
+}
+	</script>
 </div>
   
  
