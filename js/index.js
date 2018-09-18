@@ -182,7 +182,7 @@ function next()
 function getidfrompic(pic)
 {
 	pic=pic.replace("pics/","");
-	pic=pic.replace(".png","");
+ 
 	return ""+pic;
 	  
 }
