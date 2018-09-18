@@ -9,7 +9,7 @@ $current4="#12a";var vid = document.getElementById("myVideo");
  			 vid.play();  
 			 win=0;
 			 
-			 
+	alert("hi");		 
 var arr = []
 while(arr.length < 3){
     var randomnumber = Math.floor(Math.random()*13) + 1;
