@@ -7,9 +7,7 @@ $current3="#11a";
 $current4="#12a"; 
 			 win=0;
  
-	count=parseInt($('.count').text());
-count--;
-        $('.count').text(count+"");
+
 			 
 var arr = []
 while(arr.length < 3){
@@ -18,7 +16,9 @@ while(arr.length < 3){
     arr[arr.length] = randomnumber;
 }
 function isgood(n)
-{ count--; alert(arr[0]+":"+arr[1]+":"+arr[2]);
+{ 	count=parseInt($('.count').text());
+count--;
+        $('.count').text(count+""); alert(arr[0]+":"+arr[1]+":"+arr[2]);
 
 alert(n);
  
