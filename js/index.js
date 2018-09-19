@@ -23,11 +23,7 @@ function isgood(n)
       $("#count").html(parseInt($('#count').html(), 10)-1);
       if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
-	else
-	{
-   if($("#count").html(parseInt($('#count').html(), 10))<=0)
-	 $("#count").html("you lose for start game refresh site")  ;
-	}
+	 
  
     if(count>0)
     {		
