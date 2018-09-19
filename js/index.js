@@ -21,7 +21,7 @@ function isgood(n)
 { 	count=parseInt($('.count').text());
 count--;
         if(count!=0)
-        $('.count').text(count+"");
+        $('.count').text((count-1)+"");
  alert(arr[0]+":"+arr[1]+":"+arr[2]);
 
 alert(n);
