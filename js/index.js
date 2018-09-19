@@ -20,7 +20,8 @@ while(arr.length < 3){
 function isgood(n)
 { 	
  alert(arr[0]+":"+arr[1]+":"+arr[2]);
-   $("#count").html(parseInt($('#count').html(), 10)+1);
+      $("#count").html(parseInt($('#count').html(), 10)-1);
+
 
 alert(n);
  
@@ -224,7 +225,6 @@ $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo");
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play(); 			
  
-   $("#count").html(parseInt($('#count').html(), 10)+1);
 
 
              isgood(getidfrompic($(this).attr("src")) );
