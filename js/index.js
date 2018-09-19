@@ -6,8 +6,10 @@ $current2="#10a";
 $current3="#11a";
 $current4="#12a"; 
 			 win=0;
-if(count==0)
-	count=10;
+ 
+	count=parseInt($('.count').text());
+count--;
+        $('.count').text(count+"");
 			 
 var arr = []
 while(arr.length < 3){
