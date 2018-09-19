@@ -7,8 +7,10 @@ $current3="#11a";
 $current4="#12a"; 
 			 win=0;
  
-
-	count=0;		 
+if (typeof count === 'undefined') {
+   count=0;
+}
+	 		 
 var arr = []
 while(arr.length < 3){
     var randomnumber = Math.floor(Math.random()*13) + 1;
