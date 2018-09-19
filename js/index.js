@@ -8,7 +8,7 @@ $current4="#12a";
 			 win=0;
  
 
-			 
+	count=0;		 
 var arr = []
 while(arr.length < 3){
     var randomnumber = Math.floor(Math.random()*13) + 1;
