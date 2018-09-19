@@ -20,7 +20,9 @@ while(arr.length < 3){
 function isgood(n)
 { 	count=parseInt($('.count').text());
 count--;
-        $('.count').text(count+""); alert(arr[0]+":"+arr[1]+":"+arr[2]);
+        if(count!=0)
+        $('.count').text(count+"");
+ alert(arr[0]+":"+arr[1]+":"+arr[2]);
 
 alert(n);
  
