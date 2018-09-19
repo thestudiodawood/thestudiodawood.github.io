@@ -223,7 +223,8 @@ for(i=9;i<=13;i++)
 $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play(); 			
-$( ".count" ).replaceWith( count+":"+count );
+ 
+   $("#count").html(parseInt($('#count').html(), 10)+1);
 
 
              isgood(getidfrompic($(this).attr("src")) );
