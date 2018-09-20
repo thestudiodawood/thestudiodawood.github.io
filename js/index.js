@@ -14,6 +14,9 @@ while(arr.length < 3){
     if(arr.indexOf(randomnumber) > -1) continue;
     arr[arr.length] = randomnumber;
 }
+$('#count').on('click',function(){
+     $("#count").html(parseInt($('#count').html(), 10)+5);
+});
 function isgood(n)
 { 	
  alert(arr[0]+":"+arr[1]+":"+arr[2]+":"+ $("#count").html());
