@@ -234,7 +234,7 @@ $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo");
 });
 $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
-			 vid.play();  $('#count').html('whatever');
+			 vid.play();  
 
 			  isgood(getidfrompic($(this).attr("src")) );
 $("#count").html(parseInt($('#count').html(), 10)-1); if((parseInt($('#count').html(), 10)<=0))
