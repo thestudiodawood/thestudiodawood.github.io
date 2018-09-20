@@ -232,7 +232,7 @@ $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo");
 $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play();  $('#count').html('whatever');
-
+$("#count").html(parseInt($('#count').html(), 10)-1);
 			  isgood(getidfrompic($(this).attr("src")) );
 
 			  if($(this).attr("id").includes("9"))		  
@@ -249,7 +249,7 @@ $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo");
 });
 $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
-			 vid.play();  
+			 vid.play();$("#count").html(parseInt($('#count').html(), 10)-1);
 			  isgood(getidfrompic($(this).attr("src")));
 
 			  if($(this).attr("id").includes("9"))		  
