@@ -6,10 +6,7 @@ $current2="#10a";
 $current3="#11a";
 $current4="#12a"; 
 			 win=0;
- 
-if (typeof count === 'undefined') {
-   count=0;
-}
+
 	 		 
 var arr = []
 while(arr.length < 3){
@@ -24,9 +21,8 @@ function isgood(n)
       if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
 	
- count=parseInt($('#count').html(), 10);
-	if(count<=0)
-		$('#count').html("you lost");
+
+	
     if(count>0)
     {		
 	if((n=="9a")&&(arr[0]==1))
@@ -277,7 +273,7 @@ function swap(a, b) {
   $(a).attr("src",$temp);
 };
  
-  
+ 
 
 function plusDivs(n) {
     showDivs(slideIndex += n);
