@@ -16,7 +16,7 @@ while(arr.length < 3){
 }
 function isgood(n)
 { 	
- alert(arr[0]+":"+arr[1]+":"+arr[2]);
+ alert(arr[0]+":"+arr[1]+":"+arr[2]+":"+ $("#count").html());
       $("#count").html(parseInt($('#count').html(), 10)-1);
       if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
