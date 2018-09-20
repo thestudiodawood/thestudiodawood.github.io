@@ -25,7 +25,7 @@ function isgood(n)
 	 if((parseInt($('#count').html(), 10)<=0))
 	  $("#count").html("you lost"); 
 
-	
+	count=parseInt($('#count').html(), 10);
     if(count>0)
     {		
 	if((n=="9a")&&(arr[0]==1))
