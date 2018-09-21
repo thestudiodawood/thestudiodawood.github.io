@@ -235,7 +235,10 @@ if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>
 	  $("#count").html("you lost"); 
 
              isgood(getidfrompic($(this).attr("src")) );
-
+if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
+	  $("#count").html("you save doctor"); 
+	 if((parseInt($('#count').html(), 10)<=0))
+	  $("#count").html("you lost"); 
  
 });
 $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo"); 
@@ -258,7 +261,10 @@ $("#count").html(parseInt($('#count').html(), 10)-1); if((parseInt($('#count').h
      swap( "#11a","#11b") ;
       if($(this).attr("id").includes("12"))		  
      swap( "#12a","#12b") ;
- 
+ if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
+	  $("#count").html("you save doctor"); 
+	 if((parseInt($('#count').html(), 10)<=0))
+	  $("#count").html("you lost"); 
 });
 $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
@@ -278,7 +284,10 @@ $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo");
      swap( "#11a","#11c") ;
       if($(this).attr("id").includes("12"))		  
      swap( "#12a","#12c") ;
- 
+ if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
+	  $("#count").html("you save doctor"); 
+	 if((parseInt($('#count').html(), 10)<=0))
+	  $("#count").html("you lost"); 
 });
 }
  
