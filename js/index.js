@@ -269,7 +269,13 @@ if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
 	 if((parseInt($('#count').html(), 10)<=0))
-	  $("#count").html("you lost"); 
+	 {
+$("#count").html("you lost");
+		var vid = document.getElementById("myVideo"); 
+			vid.src="videos/lost.mp4"; 
+			 vid.play();  
+	 }
+
  
 });
 $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo"); 
@@ -295,7 +301,13 @@ $("#count").html(parseInt($('#count').html(), 10)-1); if((parseInt($('#count').h
  if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
 	 if((parseInt($('#count').html(), 10)<=0))
-	  $("#count").html("you lost"); 
+	 {
+$("#count").html("you lost");
+		var vid = document.getElementById("myVideo"); 
+			vid.src="videos/lost.mp4"; 
+			 vid.play();  
+	 }
+
 });
 $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
