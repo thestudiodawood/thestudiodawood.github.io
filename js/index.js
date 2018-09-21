@@ -17,10 +17,13 @@ while(arr.length < 3){
 $('#count').on('click',function(){
      $("#count").html(parseInt($('#count').html(), 10)+5);
 });
+$('#hint').on('click',function(){
+     $("#hint").html("pree card number"+arr[0]+":"+arr[1]+":"+arr[2]+"from left");
+});
+
 function isgood(n)
 { 	
- alert(arr[0]+":"+arr[1]+":"+arr[2]+":"+ $("#count").html());
-       if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
+        if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
 	 if((parseInt($('#count').html(), 10)<=0))
 	  $("#count").html("you lost"); 
