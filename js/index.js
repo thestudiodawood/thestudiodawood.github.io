@@ -29,9 +29,8 @@ $('#hint').on('click',function(){
 
 function isgood(n)
 { 	
-        if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	{
- $("#count").html("you save doctor"); 
+    
+    
 	 if((parseInt($('#count').html(), 10)<=0))
 	 {
 $("#count").html("you lost");
@@ -359,8 +358,7 @@ $("#count").html("you lost");
      swap( "#11a","#11c") ;
       if($(this).attr("id").includes("12"))		  
      swap( "#12a","#12c") ;
- if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	  $("#count").html("you save doctor"); 
+  
 	 if((parseInt($('#count').html(), 10)<=0))
 	  $("#count").html("you lost"); 
 });
