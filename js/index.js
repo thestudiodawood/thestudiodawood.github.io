@@ -18,10 +18,10 @@ $('#count').on('click',function(){
      $("#count").html(parseInt($('#count').html(), 10)+5);
 });
 $('#hint').on('click',function(){
-	if( $("#hint").html()=="")
+	if( $("#hint").html()=="hint")
            $("#hint").html("pree card number"+arr[0]+":"+arr[1]+":"+arr[2]+"from left");
 	else
-		 $("#hint").html("");
+		 $("#hint").html("hint");
 });
 
 function isgood(n)
