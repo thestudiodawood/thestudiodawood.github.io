@@ -20,7 +20,7 @@ $('#count').on('click',function(){
 $('#hint').on('click',function(){
 	if( $("#hint").html()=="hint")
 	{
- $("#hint").html("pree card number"+arr[0]+":"+arr[1]+":"+arr[2]+"from left score is"+score);
+ $("#hint").html("pres video for select  card number"+arr[0]+":"+arr[1]+":"+arr[2]+"from left score is"+score);
 		score-=25;
 	}
 	else
@@ -30,7 +30,8 @@ $('#hint').on('click',function(){
 function isgood(n)
 { 	
         if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	  $("#count").html("you save doctor"); 
+	{
+ $("#count").html("you save doctor"); 
 	 if((parseInt($('#count').html(), 10)<=0))
 	 {
 $("#count").html("you lost");
@@ -261,7 +262,12 @@ $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo");
 			 vid.play(); 			
  $("#count").html(parseInt($('#count').html(), 10)-1); 
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	  $("#count").html("you save doctor"); 
+{
+ $("#count").html("you save doctor");
+	var vid = document.getElementById("myVideo"); 
+			vid.src="videos/win.mp4"; 
+			 vid.play();  
+}
 	if((parseInt($('#count').html(), 10)<=0))
 	 {
 $("#count").html("you lost");
@@ -281,7 +287,12 @@ $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo");
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play();  
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	  $("#count").html("you save doctor"); 
+{
+ $("#count").html("you save doctor"); 
+	var vid = document.getElementById("myVideo"); 
+			vid.src="videos/win.mp4"; 
+			 vid.play();  
+}
 	if((parseInt($('#count').html(), 10)<=0))
 	 {
 $("#count").html("you lost");
@@ -303,7 +314,12 @@ $("#count").html(parseInt($('#count').html(), 10)-1); if((parseInt($('#count').h
       if($(this).attr("id").includes("12"))		  
      swap( "#12a","#12b") ;
  if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	  $("#count").html("you save doctor"); 
+ {
+  $("#count").html("you save doctor");
+	 var vid = document.getElementById("myVideo"); 
+			vid.src="videos/win.mp4"; 
+			 vid.play(); 
+ }
 	 if((parseInt($('#count').html(), 10)<=0))
 	 {
 $("#count").html("you lost");
@@ -316,6 +332,13 @@ $("#count").html("you lost");
 $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play();$("#count").html(parseInt($('#count').html(), 10)-1);
+			        if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
+ {
+  $("#count").html("you save doctor");
+	 var vid = document.getElementById("myVideo"); 
+			vid.src="videos/win.mp4"; 
+			 vid.play(); 
+ }
 			       if((parseInt($('#count').html(), 10)<=0))
 	 {
 $("#count").html("you lost");
