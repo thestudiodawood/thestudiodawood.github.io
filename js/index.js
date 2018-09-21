@@ -259,22 +259,21 @@ for(i=9;i<=13;i++)
 $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play(); 			
- 
+ $("#count").html(parseInt($('#count').html(), 10)-1); 
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
-	 if((parseInt($('#count').html(), 10)<=0))
-	  $("#count").html("you lost"); 
-
-             isgood(getidfrompic($(this).attr("src")) );
-if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	  $("#count").html("you save doctor"); 
-	 if((parseInt($('#count').html(), 10)<=0))
+	if((parseInt($('#count').html(), 10)<=0))
 	 {
 $("#count").html("you lost");
 		var vid = document.getElementById("myVideo"); 
 			vid.src="videos/lost.mp4"; 
 			 vid.play();  
 	 }
+
+             isgood(getidfrompic($(this).attr("src")) );
+if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
+	  $("#count").html("you save doctor"); 
+	 
 
  
 });
@@ -283,8 +282,13 @@ $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo");
 			 vid.play();  
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 	  $("#count").html("you save doctor"); 
-	 if((parseInt($('#count').html(), 10)<=0))
-	  $("#count").html("you lost"); 
+	if((parseInt($('#count').html(), 10)<=0))
+	 {
+$("#count").html("you lost");
+		var vid = document.getElementById("myVideo"); 
+			vid.src="videos/lost.mp4"; 
+			 vid.play();  
+	 }
 			  isgood(getidfrompic($(this).attr("src")) );
 $("#count").html(parseInt($('#count').html(), 10)-1); if((parseInt($('#count').html(), 10)<=0))
 	  $("#count").html("you lost"); 
@@ -312,8 +316,13 @@ $("#count").html("you lost");
 $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo"); 
 			vid.src="videos/"+getidfrompic($(this).attr("src"))+".mp4"; 
 			 vid.play();$("#count").html(parseInt($('#count').html(), 10)-1);
-			        if((parseInt($('#count').html(), 10)<=0))
-	  $("#count").html("you lost"); 
+			       if((parseInt($('#count').html(), 10)<=0))
+	 {
+$("#count").html("you lost");
+		var vid = document.getElementById("myVideo"); 
+			vid.src="videos/lost.mp4"; 
+			 vid.play();  
+	 }
 			  isgood(getidfrompic($(this).attr("src")));
 
 			  if($(this).attr("id").includes("9"))		  
