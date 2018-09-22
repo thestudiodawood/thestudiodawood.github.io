@@ -20,7 +20,7 @@ $('#count').on('click',function(){
 $('#hint').on('click',function(){
 	if( $("#hint").html()=="hint")
 	{
- $("#hint").html("pres video for select  card number"+arr[0]+":"+arr[1]+":"+arr[2]+"from left score is"+score);
+ $("#hint").html("press   card number"+arr[0]+":"+arr[1]+":"+arr[2]+"from left score is"+score);
 		score-=25;
 	}
 	else
@@ -262,7 +262,7 @@ $("#"+i+'a' ).click(function(){var vid = document.getElementById("myVideo");
  $("#count").html(parseInt($('#count').html(), 10)-1); 
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 {
- $("#count").html("you save doctor");
+ $("#count").html("you save doctor  score :"+score);
 	var vid = document.getElementById("myVideo"); 
 			vid.src="videos/win.mp4"; 
 			 vid.play();  
@@ -277,7 +277,7 @@ $("#count").html("you lost");
 
              isgood(getidfrompic($(this).attr("src")) );
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
-	  $("#count").html("you save doctor"); 
+	  $("#count").html("you save doctor score:"+score); 
 	 
 
  
@@ -287,7 +287,7 @@ $("#"+i+'b' ).click(function(){  var vid = document.getElementById("myVideo");
 			 vid.play();  
 if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
 {
- $("#count").html("you save doctor"); 
+ $("#count").html("you save doctor"+score); 
 	var vid = document.getElementById("myVideo"); 
 			vid.src="videos/win.mp4"; 
 			 vid.play();  
@@ -314,7 +314,7 @@ $("#count").html(parseInt($('#count').html(), 10)-1); if((parseInt($('#count').h
      swap( "#12a","#12b") ;
  if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
  {
-  $("#count").html("you save doctor");
+  $("#count").html("you save doctor score:"+score);
 	 var vid = document.getElementById("myVideo"); 
 			vid.src="videos/win.mp4"; 
 			 vid.play(); 
@@ -333,7 +333,7 @@ $("#"+i+'c' ).click(function(){  var vid = document.getElementById("myVideo");
 			 vid.play();$("#count").html(parseInt($('#count').html(), 10)-1);
 			        if((arr[0]==-2)&& (arr[1]==-2)&&(arr[2]==-2)&&(parseInt($('#count').html(), 10)>0))
  {
-  $("#count").html("you save doctor");
+  $("#count").html("you save doctor score:"+score);
 	 var vid = document.getElementById("myVideo"); 
 			vid.src="videos/win.mp4"; 
 			 vid.play(); 
