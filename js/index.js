@@ -23,12 +23,15 @@ $('#hint').on('click',function(){
 	if( $("#hint").html()=="hint")
 	{
  $("#hint").html("press   card number"+arr[0]+":"+arr[1]+":"+arr[2]+"from left score is"+score);
-		score-=25;
+		score-=25;$("#calendar").removeClass( "active" );
 	}
+	
 	else
 		 $("#hint").html("hint");
 });
-
+$('#gamename').on('click',function(){
+	 $("#calendar").removeClass( "active" );
+});
 function isgood(n)
 { 	
     
