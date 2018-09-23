@@ -8,7 +8,9 @@ that selected randomly otherwise the doctor will die on her sleep.
 but you have only 5 count(if not enough click on count to add 5) but you will lose score)
 this game is alpha version and will be updated
 <a href="https://twitter.com/ThestudioDawood ">@thestudiodawood</a>
- 
+
+ <a href="https://thestudiodawood.github.io/ ">live version</a>
+
 
 
 
