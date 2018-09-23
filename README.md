@@ -1,13 +1,12 @@
-this is (beta)game and mini episode  for 13 day of marthon for doctor who #bbc.and first episode of #doctorwho  .
-
-when doctor fall to earth have to keep their memories for keep them later and select best one later 
-
-.weh have thirteen memory numbered from 1 to 13 and when site refreshed it generated 3 random number that can see when press hint 
-
-(but you will lose some score) and press nth card on base of this numbers.if you select three true card before count end you will win
-
-and save doctor otherwise you lose and the doctor can't get her memories totally.this game is on updating
-
+ calendar game alpha version
+ this is open source episode of doctor who on base of videos from 
+bbc doctor who  and 13 days of marathon
+doctor trap in her memories when sleeping  and should save her with select three good memories
+that selected randomly otherwise the doctor will die on her sleep.
+but you have only 5 count(if not enough click on count to add 5) but you will lose score)
+this game is alpha version and will be updated
+copyright @thestudiodawood
+ https://twitter.com/ThestudioDawood  
 
 
 
