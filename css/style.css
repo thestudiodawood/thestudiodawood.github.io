@@ -113,14 +113,14 @@ html, body {
 }
 #calendar #week input + label ol {
   transition: transform 0.5s;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 25%;
   padding: 0;
   position: relative;
   float: left;
 }
 #calendar.active {
   transition: 1s;
-  width: 45vw;
+  width: 45%;
   transform: perspective(600px) rotateY(-10deg) rotateX(2deg) translateX(-70%) translateY(-55%);
   transform-origin: center center;
 }
