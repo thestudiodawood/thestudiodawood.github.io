@@ -16,6 +16,8 @@ while(arr.length < 3){
 }
 $('#count').on('click',function(){
      $("#count").html(parseInt($('#count').html(), 10)+5);
+	score-=10;
+	$("#calendar").removeClass( "active" );
 });
 $('#hint').on('click',function(){
 	if( $("#hint").html()=="hint")
