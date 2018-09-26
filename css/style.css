@@ -168,14 +168,16 @@ html, body {
 }
 li{
 font-style:bold;
-color:black;	
+ color:#efef00;
+;	
 }
  button:focus {
   outline: none;
   opacity: 0.2;
 }
 span
-{color:black;
+{ color:#efef00;
+
 }
   button   {
 width: 100px;
